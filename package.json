@@ -1,10 +1,13 @@
 {
+  "homepage": "https://sahil-kumar23.github.io/eshway_assignment",
   "name": "eshway_assignment",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy" : "npm run build",
+    "deploy" : "main -d deploy",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
